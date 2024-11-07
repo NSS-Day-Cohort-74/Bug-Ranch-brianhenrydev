@@ -30,7 +30,7 @@ const journeyMaker = () => {
         mountains: createMountains(),
         plains: createPlains()
     }
-//debugger;
+
     for (let riverNumber = 0; riverNumber < areas.rivers; riverNumber++) {
         journey.push("river")
     }
