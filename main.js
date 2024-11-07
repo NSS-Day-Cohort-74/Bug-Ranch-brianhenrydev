@@ -7,6 +7,7 @@ const drovers = hireDrovers(cattleToDrive)
 const cattle = roundup(cattleToDrive)
 const journey = journeyMaker()
 
+
 console.log(`
 ************************************************
 **  K A N S A S   S L I M ' S   C A T T L E   **
