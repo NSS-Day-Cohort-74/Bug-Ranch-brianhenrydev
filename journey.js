@@ -30,7 +30,7 @@ const journeyMaker = () => {
         mountains: createMountains(),
         plains: createPlains()
     }
-debugger;
+//debugger;
     for (let riverNumber = 0; riverNumber < areas.rivers; riverNumber++) {
         journey.push("river")
     }
@@ -50,10 +50,10 @@ debugger;
     return randomize(journey)
 }
 
-journeyMaker()
+
  
 
 module.exports = {
     createRivers, createForests,
-    createMountains, createPlains
+    createMountains, createPlains, journeyMaker
 }
